@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>OPENSOURCE</description>
+   <name>ScriptDemo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0a573ad1-cf01-442a-93ac-3d358c651658</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>920194f2-323b-44cb-80d1-34385cfbc1c6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Admin'</defaultValue>
+      <description></description>
+      <id>920194f2-323b-44cb-80d1-34385cfbc1c6</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>
