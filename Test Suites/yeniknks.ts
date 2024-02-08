@@ -30,4 +30,11 @@
          <variableId>82192979-8fd4-47e4-8075-1e5587d21d67</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>39690edf-7c74-45f6-9a66-c371384b8ce5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Demo/GitDemo</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
