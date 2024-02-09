@@ -34,18 +34,22 @@ class Deneme {
 
 	}
 
-	@When("gir")
-	def sa() {
-		println when
+	@When("gir (.*) ve (.*)")
+	def sa(String usr, String pass) {
+		WebUI.setText(findTestObject('Page_OrangeHRM/input_Username_username'),usr)
+		WebUI.setText(findTestObject('Page_OrangeHRM/input_Password_password'),pass)
 	}
 
 	@And("devam")
 	def fa() {
-		println and
+		WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Login'))
 	}
 
 	@Then("bit")
 	def aa() {
 		println then
+		WebUI.verifyTextPresent('Time at Work', false)
+		
+		WebUI.closeBrowser()
 	}
 }

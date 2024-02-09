@@ -18,8 +18,13 @@
 #Sample Feature Definition Template
 Feature: Title of your feature
 
-  Scenario: Title of your scenario outline
+  Scenario Outline: Title of your scenario outline
     Given basla
-    When gir
+    When gir <usr> ve <pass>
     And devam
     Then bit
+
+    Examples: 
+      | usr     | pass     |
+      | Admin   | admin123 |
+      | Adminss | adminke  |
