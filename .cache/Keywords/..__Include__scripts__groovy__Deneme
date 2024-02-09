@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "837EF60139E4280986EEF7E18C540A55",
+  "keywordFileContentHash": "0854B9AC69C542AF910D8C2E83C5B7F4",
   "keywordClasses": [
     {
       "name": "Deneme",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
